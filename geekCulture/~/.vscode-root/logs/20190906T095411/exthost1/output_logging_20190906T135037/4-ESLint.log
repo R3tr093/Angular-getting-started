@@ -1,0 +1,27 @@
+[Info  - 13:50:37] ESLint server stopped.
+[Info  - 13:50:38] ESLint server running in node v10.11.0
+[Info  - 13:50:38] ESLint server is running.
+[Info  - 13:50:39] 
+Failed to load the ESLint library for the document /root/GIT/Angular/DashingJS/package.json
+
+To use ESLint please install eslint by running npm install eslint in the workspace folder DashingJS
+or globally using 'npm install -g eslint'. You need to reopen the workspace after installing eslint.
+
+If you are using yarn or pnpm instead of npm set the setting `eslint.packageManager` to either `yarn` or `pnpm`
+Alternatively you can disable ESLint for the workspace folder DashingJS by executing the 'Disable ESLint' command.
+[Info  - 13:50:39] 
+Failed to load the ESLint library for the document /root/GIT/Angular/DashingJS/commitlint.config.js
+
+To use ESLint please install eslint by running npm install eslint in the workspace folder DashingJS
+or globally using 'npm install -g eslint'. You need to reopen the workspace after installing eslint.
+
+If you are using yarn or pnpm instead of npm set the setting `eslint.packageManager` to either `yarn` or `pnpm`
+Alternatively you can disable ESLint for the workspace folder DashingJS by executing the 'Disable ESLint' command.
+[Info  - 14:03:35] 
+Failed to load the ESLint library for the document /root/GIT/Angular/DashingJS/package.json
+
+To use ESLint please install eslint by running npm install eslint in the workspace folder DashingJS
+or globally using 'npm install -g eslint'. You need to reopen the workspace after installing eslint.
+
+If you are using yarn or pnpm instead of npm set the setting `eslint.packageManager` to either `yarn` or `pnpm`
+Alternatively you can disable ESLint for the workspace folder DashingJS by executing the 'Disable ESLint' command.

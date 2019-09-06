@@ -1,9 +1,52 @@
+)
+
+
 <div class="container">
-    <div class="row">
-      <ul class="list-group">
-          <app-appareil></app-appareil>
-          <app-appareil></app-appareil>
-          <app-appareil></app-appareil>
-      </ul>  
+  <div class="row">
+    
+    <div class="col-sm">
+     
     </div>
+    
+    
+    
+    
+    <div class="col-sm">
+     
+      <ul class="list-group"> Mes appareils :
+
+        <app-appareil [appareilName]="appareilOne" [appareilStatus]="statusOne"></app-appareil>
+        <app-appareil [appareilName]="appareilTwo" [appareilStatus]="statusTwo"></app-appareil>
+        <app-appareil [appareilName]="appareilThree" [appareilStatus]="statusThree"></app-appareil>
+    
+        
+        </ul>
+
+        <button class="btn btn-success" 
+        
+        [disabled]="!isAuth"
+        (click)="onAllumer()"
+        
+        
+        >Tout allume</button>
+
+
+      
+    </div>
+    
+    
+    
+    
+    
+    
+    
+    
+    <div class="col-sm">
+      
+    </div>
+  </div>
 </div>
+
+
+
+<router-outlet></router-outlet>
